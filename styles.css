@@ -55,9 +55,9 @@ footer {
 }
 
 /* Navbar styles */
+
 .navbar {
-  padding: 20px ;
-  nav-left: auto; /* Adjust the top and bottom padding as needed */
+  padding: 0px 0px 0px ; /* Adjust the top and bottom padding as needed */
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Add a border at the bottom */
 }
 

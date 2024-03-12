@@ -35,6 +35,16 @@
             </div>
 
             <div class="form-group">
+                <label for="dropdownMenu">Select a Car:</label>
+                <select id="dropdownMenu" name="dropdownMenu" onchange="updatePackageName(this)" required aria-label="Select Car">
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="OOTY">SUV</option>
+                    <option value="Option 2">SEDAN</option>
+                    <option value="Option 3">LUXURY</option>
+                </select>
+            </div>
+
+            <div class="form-group">
                 <label for="dropdownMenu">Select a Package:</label>
                 <select id="dropdownMenu" name="dropdownMenu" onchange="updatePackageName(this)" required aria-label="Select Package">
                     <option value="" disabled selected>Select an option</option>
